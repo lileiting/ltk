@@ -18,7 +18,6 @@
 1. gatk
 1. picard-tools
 1. igvtools
-1. fastqc
 1. meme
 1. mrbayes
 1. raxml
