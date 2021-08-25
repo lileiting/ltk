@@ -4,8 +4,8 @@ RUN export HOMEBREW_NO_AUTO_UPDATE=1 && brew tap brewsci/bio && \
   diamond freebayes lastz minimap2 muscle mrbayes raxml igv \
   brewsci/bio/star-aligner mafft prank bowtie2 bwa seqkit \
   mummer datamash pigz pixz p7zip htop glances parallel \
-  cpanm brewsci/bio/bioperl && \
-  cpanm Array::Split Authen::SASL Bio::DB::HTS \
+  cpanm brewsci/bio/bioperl
+RUN cpanm Array::Split Authen::SASL Bio::DB::HTS \
   Data::Dump Data::Printer Email::Stuffer Excel::CloneXLSX::Format \
   Excel::Writer::XLSX File::Which HTTP::Request::Common LWP::UserAgent \
   List::Util MIME::Base64 Number::Format Parallel::ForkManager \
