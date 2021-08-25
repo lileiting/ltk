@@ -6,3 +6,4 @@ RUN brew tap brewsci/bio && brew install \
   brewsci/bio/star-aligner mafft prank bowtie2 bwa \
   mummer datamash pigz pixz p7zip htop glances parallel \
   cpanm brewsci/bio/bioperl
+RUN cpanm local::lib
