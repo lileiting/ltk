@@ -15,10 +15,8 @@
 1. bwa
 1. seqkit
 1. mummer
-1. gatk
 1. picard-tools
 1. igvtools
-1. meme
 1. mrbayes
 1. raxml
 1. genometools
