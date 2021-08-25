@@ -26,7 +26,6 @@
 1. pigz 
 1. pixz 
 1. p7zip 
-1. unrar 
 1. htop 
 1. glances
 1. rename 
