@@ -5,5 +5,7 @@ RUN brew tap brewsci/bio && brew install \
   diamond freebayes lastz minimap2 muscle mrbayes raxml igv \
   brewsci/bio/star-aligner mafft prank bowtie2 bwa \
   mummer datamash pigz pixz p7zip htop glances parallel \
-  cpanm brewsci/bio/bioperl
+  cpanm brewsci/bio/bioperl && \
+  rm -rf /home/linuxbrew/.cache /home/linuxbrew/.cpanm \
+         /home/linuxbrew/.bundle /home/linuxbrew/.gem 
 RUN cpanm local::lib
