@@ -13,7 +13,6 @@
 1. prank
 1. bowtie2
 1. bwa
-1. seqkit
 1. mummer
 1. igvtools
 1. mrbayes
@@ -27,37 +26,3 @@
 1. parallel
 1. datamash
 1. brewsci/bio/bioperl
-
-### Perl Modules
-
-1. Array::Split
-1. Authen::SASL
-1. Bio::DB::HTS
-1. Data::Dump
-1. Data::Printer
-1. Email::Stuffer
-1. Excel::CloneXLSX::Format
-1. Excel::Writer::XLSX
-1. File::Which
-1. HTTP::Request::Common
-1. LWP::UserAgent
-1. List::Util
-1. MIME::Base64
-1. Number::Format
-1. Parallel::ForkManager
-1. Slurp
-1. Spreadsheet::ParseExcel
-1. Spreadsheet::ParseXLSX
-1. Spreadsheet::XLSX
-1. Statistics::Basic
-1. Statistics::Distributions
-1. Statistics::Multtest
-1. Sys::CpuAffinity
-1. TOML
-1. Text::CSV
-1. Text::Levenshtein
-1. Text::NSP
-1. Time::Elapse
-1. URI::Escape
-1. UUID
-1. XML::Simple
