@@ -8,7 +8,6 @@
 1. minimap2
 1. bcftools
 1. muscle
-1. brewsci/bio/star-aligner
 1. mafft
 1. prank
 1. bowtie2
@@ -25,4 +24,5 @@
 1. glances
 1. parallel
 1. datamash
-1. brewsci/bio/bioperl
+1. brewsci/bio/star-aligner
+1. brewsci/bio/subread
