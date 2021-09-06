@@ -31,10 +31,11 @@ This is an image that built on [homebrew/brew](https://hub.docker.com/r/homebrew
 
 Packages not installed because single binary file is enough
 
-1. [seqkit](https://bioinf.shenwei.me/seqkit/): a cross-platform and ultrafast toolkit for FASTA/Q file manipulation
+1. [seqkit](https://bioinf.shenwei.me/seqkit/)
 
 Packages not installed because tailored images are better
 
-1. GATK: [broadinstitute/gatk](https://hub.docker.com/r/broadinstitute/gatk)
-1. LTR_Finder: [medicinalgenomics/ltr_finder](https://hub.docker.com/r/medicinalgenomics/ltr_finder)
+1. [broadinstitute/gatk](https://hub.docker.com/r/broadinstitute/gatk)
 1. [dfam/tetools](https://hub.docker.com/r/dfam/tetools): RepeatMasker, RepeatModeler, LTR_retriever, RepeatScout, RECON, cd-hit, coseg, genometools, hmmer, mafft, rmblast, trf
+1. [biocontainers/maker](https://quay.io/repository/biocontainers/maker?tab=tags)
+1. [medicinalgenomics/ltr_finder](https://hub.docker.com/r/medicinalgenomics/ltr_finder)
