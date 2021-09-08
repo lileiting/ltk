@@ -4,7 +4,7 @@ RUN brew tap brewsci/bio && brew install \
   samtools bcftools vcftools diamond freebayes \
   lastz minimap2 muscle mrbayes raxml igv \
   prank bowtie2 bwa mummer datamash pigz pixz \
-  p7zip htop glances parallel \
+  p7zip htop glances parallel texlive \
   brewsci/bio/star-aligner brewsci/bio/subread \
   brewsci/bio/last \
   cpanm && cpanm local::lib && \
