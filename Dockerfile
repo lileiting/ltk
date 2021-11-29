@@ -5,6 +5,5 @@ RUN brew install \
   star-aligner subread \
   diamond muscle mummer last mmseqs2 \
   raxml r busco && \
-  brew install gmap-gsnap -s && \
   rm -rf /home/linuxbrew/.cache /home/linuxbrew/.cpanm \
          /home/linuxbrew/.bundle /home/linuxbrew/.gem
