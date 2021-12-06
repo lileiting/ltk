@@ -4,6 +4,6 @@ RUN brew install \
   bowtie2 hisat2 stringtie \
   star-aligner subread \
   diamond muscle mummer last mmseqs2 \
-  raxml r busco && \
+  raxml r busco genewise && \
   rm -rf /home/linuxbrew/.cache /home/linuxbrew/.cpanm \
          /home/linuxbrew/.bundle /home/linuxbrew/.gem
