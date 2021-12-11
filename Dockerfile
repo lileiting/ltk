@@ -4,6 +4,6 @@ RUN brew install \
   blast blat last lastz \
   diamond muscle mummer mmseqs2 \
   vcftools freebayes stringtie subread \
-  raxml r busco genewise && \
+  raxml r busco genewise trinity && \
   rm -rf /home/linuxbrew/.cache /home/linuxbrew/.cpanm \
          /home/linuxbrew/.bundle /home/linuxbrew/.gem
