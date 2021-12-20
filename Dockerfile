@@ -1,5 +1,5 @@
 FROM ghcr.io/lileiting/ltk01:main
-RUN brew install \
+RUN brew install snakemake \
   star-aligner blast blat last lastz \
   diamond mummer mmseqs2 \
   vcftools freebayes stringtie subread \
