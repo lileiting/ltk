@@ -4,7 +4,7 @@ RUN brew install \
   diamond mummer mmseqs2 \
   vcftools freebayes stringtie subread \
   raxml busco genewise trinity \
-  gd ruby \
-  && \
+  gd ruby && \
+  chmod -R o+rx /home/linuxbrew && \
   rm -rf /home/linuxbrew/.cache /home/linuxbrew/.cpanm \
          /home/linuxbrew/.bundle /home/linuxbrew/.gem
