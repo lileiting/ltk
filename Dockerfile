@@ -3,7 +3,7 @@ RUN brew install \
   star-aligner blast blat last lastz \
   diamond mummer mmseqs2 \
   vcftools freebayes stringtie subread \
-  raxml busco genewise trinity \
+  raxml iqtree2 busco trinity \
   gd ruby && \
   chmod -R o+rx /home/linuxbrew && \
   rm -rf /home/linuxbrew/.cache /home/linuxbrew/.cpanm \
