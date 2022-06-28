@@ -1,10 +1,19 @@
 FROM ghcr.io/lileiting/ltk01:main
 RUN brew install \
-  star-aligner blast blat last lastz \
-  diamond mummer mmseqs2 \
-  vcftools freebayes stringtie subread \
-  raxml iqtree2 busco trinity \
-  gd ruby && \
+  blat \
+  last \
+  lastz \
+  mmseqs2 \
+  vcftools \
+  stringtie \
+  subread \
+  raxml \
+  iqtree2 \
+  busco \
+  trinity \
+  && \
   chmod -R o+rx /home/linuxbrew && \
-  rm -rf /home/linuxbrew/.cache /home/linuxbrew/.cpanm \
-         /home/linuxbrew/.bundle /home/linuxbrew/.gem
+  rm -rf /home/linuxbrew/.cache \
+         /home/linuxbrew/.cpanm \
+         /home/linuxbrew/.bundle \
+         /home/linuxbrew/.gem
